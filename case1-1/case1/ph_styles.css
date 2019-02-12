@@ -29,10 +29,22 @@
 
 
 /* Structural Styles */
-
-
-
-
+html {
+	background-color: hsl(91, 8%, 56%);
+}
+body {
+	background-color: hsl(58, 31%, 84%);
+}
+header {
+	background-color: black;
+}
+p {
+	margin: 0px;
+	padding-top: 5px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+}
 /* Navigation Styles */
 
 
