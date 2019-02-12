@@ -1,6 +1,8 @@
 @charset "utf-8";
 @font-face {
-	font-family: 
+	font-family: Champagne;
+	src: url ('cac_champagne.woff') format('woff'),
+		 url ('cac_champagne.ttf') format('truetype');
 }
 
 /*
