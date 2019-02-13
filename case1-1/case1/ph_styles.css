@@ -1,21 +1,21 @@
 @charset "utf-8";
 @font-face 
-{ 
+{
 	font-family: Champagne;
 	src: url (cac_champagne.woff) format(woff),
-		 url (cac_champagne.ttf) format(ttf);
+	url (cac_champagne.ttf) format(ttf);
 }
 @font-face 
 {
 	font-family: Grunge;
 	src: url (1942.woff) format(woff),
-		 url (1942.ttf) format(truetype);
+	url (1942.ttf) format(truetype);
 }
 @font-face 
 {
 	font-family: Dobkin;
 	src: (DobkinPlain.woff) format(woff),
-		 (DobkinPlain.ttf) format(truetype);
+	(DobkinPlain.ttf) format(truetype);
 }
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
