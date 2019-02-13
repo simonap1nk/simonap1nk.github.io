@@ -1,18 +1,20 @@
 @charset "utf-8";
-@font-face {
-	font-family: Champagne; 
+@font-face 
+{ 
+	font-family: Champagne;
 	src: url ('cac_champagne.woff') format('woff'),
-		 url ('cac_champagne.ttf') format('truetype');
+		 url ('cac_champagne.ttf') format('ttf');
 }
-@font-face {
+@font-face 
+{
 	font-family: Grunge;
-	src: url ('1942.woff') format('woff')
-		 url ('1942.ttf') format('truetype')
+	src: url ('1942.woff') format('woff'),
+		 url ('1942.ttf') format('truetype');
 }
-@font-face {
+@font-face 
+{
 	font-family: Dobkin;
-	src: ('DobkinPlain.woff') format('woff')
-		 ('DobkinPlain.ttf') format('truetype')
+	src: ('DobkinPlain.woff') format('woff'),
 }
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -29,25 +31,34 @@
 
 
 /* Structural Styles */
-html {
+html 
+{
 	background-color: hsl(91, 8%, 56%);
 }
-body {
+body 
+{
 	background-color: hsl(58, 31%, 84%);
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
 }
-header {
+header 
+{
 	background-color: black;
 }
-p {
+p 
+{
 	margin: 0px;
 	padding-top: 5px;
 	padding-right: 25px;
 	padding-bottom: 25px;
 	padding-left: 25px;
-	font-size: 1.1em;
-	text-align: center;
 }
-address {
+body + p 
+{
+		font-size: 1.1em;
+		text-align: center
+}
+address 
+{
 	font-style: normal;
 	font-size: 0.9em;
 	text-align: center;
@@ -55,7 +66,8 @@ address {
 	padding-bottom: 10px;
 }
 /* Navigation Styles */
-nav a {
+nav a 
+{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -63,12 +75,14 @@ nav a {
 	background-color: hsla(0, 0%, 42%, 0.4);
 	text-decoration: none;
 }
-a:hover {
+a:hover 
+{
 	color: hsla(0, 0%, 100%, 0.7);
 	background-color: hsl(0, 0%, 42%, 0.7);
 }
 /* Section Styles */
-section.playbill h1 {
+section.playbill h1 
+{
 	font-size: 3em;
 	font-weight: normal;
 	margin: 0px;
@@ -77,17 +91,27 @@ section.playbill h1 {
 	padding-bottom: 10px;
 	padding-left: 20px;
 }
-#play1 {
+#play1 
+{
 	background-color: hsl(240, 100%, 88%);
 }
-#play2 {
+#play2 
+{
 	background-color: hsl(25, 88%, 73%);
 }
-#play3 {
+#play3 
+{
 	background-color: hsl(0, 100%, 75%);
 }
-#play4 {
+#play4 
+{
 	background-color: hsl(296, 86%, 86%);
 }
 /* Description List Styles */
+dt
+{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: hsla(0, 0%, 0%, 0.4)
+}
 
