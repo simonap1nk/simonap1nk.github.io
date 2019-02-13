@@ -2,20 +2,20 @@
 @font-face 
 {
 	font-family: Champagne;
-	src: url (cac_champagne.woff) format(woff),
-	url (cac_champagne.ttf) format(ttf);
+	src: url(cac_champagne.woff) format('woff'),
+	url(cac_champagne.ttf) format('ttf');
 }
 @font-face 
 {
 	font-family: Grunge;
-	src: url (1942.woff) format(woff),
-	url (1942.ttf) format(truetype);
+	src: url(1942.woff) format('woff'),
+	url(1942.ttf) format('ttf');
 }
 @font-face 
 {
 	font-family: Dobkin;
-	src: (DobkinPlain.woff) format(woff),
-	(DobkinPlain.ttf) format(truetype);
+	src: url(DobkinPlain.woff) format('woff'),
+	url(DobkinPlain.ttf) format('ttf');
 }
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -120,7 +120,7 @@ section.playbill h1
 {
 	font-family: Impact, Charcoal, sans-serif;
 }
-#play h1
+#play4 h1
 {
 	font-family: Dobkin, cursive;
 }
