@@ -1,4 +1,84 @@
+@charset "utf-8";
+@font-face 
+{
+	
+}
+/*
+	Project 1 - Diet Water
+    Author: Simona E. Suciu
+    Date:   02/23/2019
+
+    Filename: styles.css
+*/
 html
 {
-	background-color: black;
+	background-image: linear-gradient(to bottom, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+	color:#008080;
 }
+h1
+{
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Special Elite', cursive;
+	font-size: 50px;
+}
+div
+{
+	padding-left: 265px;
+}
+#main
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 25px;
+}
+ul
+{
+	padding-left: 340px;
+	font-family: 'Special Elite', cursive;
+	font-size: 40px;
+}
+.contact
+{
+	padding-left: auto;
+	padding-right: auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 60%;
+	font-size: 12px;
+}
+a
+{
+	text-decoration: none;
+}
+a:link
+{
+	color: #800080;
+}
+a:hover
+{
+	color: #FF1493;
+}
+a:visited
+{
+	color: #3ab5b0;
+}
+a:focus
+{
+	color:#D8BFD8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
