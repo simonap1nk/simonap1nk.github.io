@@ -15,25 +15,54 @@
 
 
 /* Article Styles */
-
-
+article
+{
+	float:left;
+	width:384px;
+}
 
 
 /* First Line and Drop Cap Styles */
+p.drop-cap:first-letter
+{
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: 'Times New Roman', courier;
+  line-height: 80%;
+  padding-bottom:12px;
+  padding-right:3px;
+}
+p.drop-cap:first-line
+{
+	font-variant:small-caps;
+	font-size:1.16em;
+}
 
-
-
- 
 
 /* Aside Styles */
-
-
+aside
+{
+	width:768px;
+	float:left;
+}
 
 
 /* Map Styles */
-
-
-
+div#mapImage
+{
+	width:688px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+img#mapImage
+{
+	display:block;
+	width:100%;
+}
 
 /* Interactive Map Styles */
 
