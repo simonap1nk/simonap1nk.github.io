@@ -15,6 +15,7 @@
 
 
 /* Article Styles */
+
 article
 {
 	float:left;
@@ -23,33 +24,37 @@ article
 
 
 /* First Line and Drop Cap Styles */
-p.drop-cap:first-letter
+
+article p:first-of-type:first-line
+{
+	font-size: 1.25em;
+	font-variant: small-caps;
+}
+article p:first-of-type::first-letter
 {
   float: left;
-  width: 0.7em;
-  font-size: 400%;
-  font-family: 'Times New Roman', courier;
-  line-height: 80%;
+  width: 0.8em;
+  font-size: 4em;
+  font-family: 'Times New Roman', serif;
+  line-height: 0.8em;
   padding-bottom:12px;
   padding-right:3px;
-}
-p.drop-cap:first-line
-{
-	font-variant:small-caps;
-	font-size:1.16em;
 }
 
 
 /* Aside Styles */
+
 aside
 {
+	display:block;
 	width:768px;
 	float:left;
 }
 
 
 /* Map Styles */
-div#mapImage
+
+#battleMap
 {
 	width:688px;
 	margin-top:20px;
@@ -58,7 +63,7 @@ div#mapImage
 	margin-right:auto;
 	position:relative;
 }
-img#mapImage
+#mapImage
 {
 	display:block;
 	width:100%;
@@ -66,47 +71,53 @@ img#mapImage
 
 
 /* Interactive Map Styles */
-a.battleMarkers
+
+#marker1.battleMarkers
 {
 	position:absolute;
+	left:340px;
+	top:220px;
 }
-a#marker1
+#marker2.battleMarkers
 {
-	position:(220, 340);
+	position:absolute;
+	left:358px;
+	top:149px;
 }
-a#marker2
+#marker3.battleMarkers
 {
-	position:(194, 358);
+	position:absolute;
+	left:400px;
+	top:202px;
 }
-a#marker3
+#marker4.battleMarkers
 {
-	position:(202,400);
+	position:absolute;
+	left:452px;
+	top:217px;
 }
-a#marker4
+#marker5.battleMarkers
 {
-	position:(217,452);
+	position:absolute;
+	left:498px;
+	top:229px;
 }
-a#marker5
+#marker6.battleMarkers
 {
-	position:(229,489);
+	position:absolute;
+	left:544px;
+	top:246px;
 }
-a#marker6
-{
-	position:(253,544);
-}
+
+
 /* Map Information Styles */
 
-
-
-/
-
-
-
-
-
-
-
-
-
-
+div.mapInfo
+{
+	display:none;
+}
+a.battleMarkers:hover + div.mapInfo
+{
+	display:block;
+}
 
