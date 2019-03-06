@@ -64,13 +64,49 @@ img#mapImage
 	width:100%;
 }
 
+
 /* Interactive Map Styles */
-
-
-
-
+a.battleMarkers
+{
+	position:absolute;
+}
+a#marker1
+{
+	position:(220, 340);
+}
+a#marker2
+{
+	position:(194, 358);
+}
+a#marker3
+{
+	position:(202,400);
+}
+a#marker4
+{
+	position:(217,452);
+}
+a#marker5
+{
+	position:(229,489);
+}
+a#marker6
+{
+	position:(253,544);
+}
 /* Map Information Styles */
 
 
 
 /
+
+
+
+
+
+
+
+
+
+
+
